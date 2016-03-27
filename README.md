@@ -66,7 +66,7 @@ A stable algorithm gives nearly the right answer to nearly the right question. H
 
 The figure above shows the sensitivity of polynomial approximation near its roots showing multiple zero crossings.
 
-References:
+References:  
 *G. Strang, "Introduction to Linear Algebra", 2009*
  
 ### Dependencies
