@@ -24,7 +24,7 @@ Rayleigh Quotient Iteration is an eigenvalue estimation algorithm that iterative
 <img src="https://github.com/vsmolyakov/lin_alg/blob/master/figures/rayleigh_quotient.png" width = "400" />
 </p>
 
-Figure above shows fast convergence of the algorithm to the maximum eigenvalue estimates.
+Figure above shows fast convergence of the algorithm to the maximum eigenvalue estimates for a Gaussian random matrix.
 
 References:  
 *G. Golub and C. Van Loan, "Matrix Computations", 1983*  
@@ -61,10 +61,10 @@ References:
 A stable algorithm gives nearly the right answer to nearly the right question. Here, numerical stability is examined for polynomials, householder triangularization, SVD decomposition, least squares, and matrix inversion.
 
 <p align="center">
-<img src="https://github.com/vsmolyakov/lin_alg/blob/master/figures/legendre_poly.png" width = "400" />
+<img src="https://github.com/vsmolyakov/lin_alg/blob/master/figures/numerical_stability.png" width = "400" />
 </p>
 
-The figure above shows the sensitivity of polynomial approximation near its root showing multiple zero crossings.
+The figure above shows the sensitivity of polynomial approximation near its roots showing multiple zero crossings.
 
 References:
 *G. Strang, "Introduction to Linear Algebra", 2009*
