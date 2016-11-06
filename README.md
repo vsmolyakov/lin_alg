@@ -3,6 +3,19 @@ Numerical Linear Algebra Algorithms.
 
 ### Description
 
+**Page Rank**
+
+Google PageRank is a stationary distribution of a Markov chain defined over internet pages. The sparse state transition matrix is composed of transitions that follow a link and those that do not. By applying the power method, we are able to recover the page rank vector.
+
+<p align="center">
+<img src="https://github.com/vsmolyakov/lin_alg/blob/master/figures/page_rank_merged.png" />
+</p>
+
+The figure above shows the sparse connectivity matrix G defined for a randomly generated page links and the associated page rank.
+
+References:  
+*C. Moler, "Experiments with Matlab", 2011*  
+
 **Non-negative Matrix Factorization**
 
 Non-negative Matrix Factorization (NMF) decomposes matrix A into non-negative factors W and H that minimize the Frobenius norm ||A-WH||. The non-negativity of W and H is useful in application to probability distrubitions. In particular, we apply NMF to topic modeling by decomposing a term-document matrix of word counts of size V x D into a V x K topic matrix W and a K x D topic proportions matrix H.
